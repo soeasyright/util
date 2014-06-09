@@ -13,7 +13,7 @@
 #include "cocos2d.h"
 bool EZSaveFile(const char *fileName,std::vector<char> *buffer);
 
-#define EZSaveKey(key,valType,val) CCUserDefault::sharedUserDefault()->set##valType##ForKey(key, val)
+#define EZSaveKey(valType,key,val) CCUserDefault::sharedUserDefault()->set##valType##ForKey(key, val)
 #define EZSaveFlush() CCUserDefault::sharedUserDefault()->flush()
-#define EZGetKey(key,valType) CCUserDefault::sharedUserDefault()->get##valType##ForKey(key);
+#define EZGetKey(valType,key) CCUserDefault::sharedUserDefault()->get##valType##ForKey(key);
 #endif /* defined(____Storge__) */
