@@ -1,13 +1,13 @@
 //
 //  HttpUtil.h
-//  nullatest01
+//  
 //
 //  Created by soeasyright on 2014/6/5.
 //
 //
 
-#ifndef __nullatest01__HttpUtil__
-#define __nullatest01__HttpUtil__
+#ifndef ____HttpUtil__
+#define ____HttpUtil__
 
 #include "Singleton.h"
 #include "cocos2d.h"
@@ -20,7 +20,6 @@ using namespace std;
 //typedef void (CCObject::*SEL_HTTPOKCALLBACK)(CCDictionary*);
 typedef void (CCObject::*SEL_HTTPOKCALLBACK)(const char* ,CCObject * );
 typedef void (CCObject::*SEL_HTTPERRORCALLBACK)(const char* );
-
 
 #define httpOk_selector(_selector) (SEL_HTTPOKCALLBACK)(&_selector)
 #define httpError_selector(_selector) (SEL_HTTPERRORCALLBACK)(&_selector)
@@ -94,4 +93,4 @@ private:
    
 };
 
-#endif /* defined(__nullatest01__HttpUtil__) */
+#endif /* defined(____HttpUtil__) */

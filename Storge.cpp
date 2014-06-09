@@ -1,13 +1,13 @@
 //
 //  Storge.cpp
-//  nullatest01
+//  
 //
 //  Created by soeasyright on 2014/6/6.
 //
 //
 
 #include "Storge.h"
-
+#include "Macro.h"
 bool EZSaveFile(const char *fileName,std::vector<char> *buffer)
 {
     const char *localFileName=LocalFileName(fileName);

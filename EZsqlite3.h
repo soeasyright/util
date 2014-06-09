@@ -1,21 +1,23 @@
 //
 //  EZsqlite3.h
-//  nullatest01
+//  
 //
 //  Created by soeasyright on 2014/6/9.
 //
 //
 
-#ifndef __nullatest01__EZsqlite3__
-#define __nullatest01__EZsqlite3__
+#ifndef ____EZsqlite3__
+#define ____EZsqlite3__
 
-#include <iostream>
+#include "cocos2d.h"
+using namespace cocos2d;
 #include <sqlite3.h>
 
 class EZsqlite3
 {
 public:
-    static void Opne(void);
+    static sqlite3 *pdb;
+    static bool GetOrCreate(const char *fileName);
 };
 
-#endif /* defined(__nullatest01__EZsqlite3__) */
+#endif /* defined(____EZsqlite3__) */

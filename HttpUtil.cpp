@@ -1,6 +1,6 @@
 //
 //  HttpUtil.cpp
-//  nullatest01
+//  
 //
 //  Created by soeasyright on 2014/6/5.
 //

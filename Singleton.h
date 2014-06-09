@@ -1,15 +1,15 @@
 //
 //  Singleton.h
-//  nullatest01
+//  
 //
 //  Created by soeasyright on 2014/6/5.
 //
 //
 
-#ifndef __nullatest01__Singleton__
-#define __nullatest01__Singleton__
+#ifndef ____Singleton__
+#define ____Singleton__
 
-#include "Macro.h"
+
 #include "cocos2d.h"
 using namespace cocos2d;
 
@@ -47,4 +47,4 @@ inline void Singleton<T>::destroyInstance()
 #define Delcear_Singleton_Instance(_Ti) \
     template<> _Ti* Singleton<_Ti>::_instance = NULL
 
-#endif /* defined(__nullatest01__Singleton__) */
+#endif /* defined(____Singleton__) */

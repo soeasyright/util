@@ -1,11 +1,3 @@
-//
-//  md5.c
-//  nullatest01
-//
-//  Created by soeasyright on 2014/6/6.
-//
-//
-
 #include <stdio.h>
 /*
  * This is an OpenSSL-compatible implementation of the RSA Data Security, Inc.

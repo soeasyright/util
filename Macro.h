@@ -1,13 +1,13 @@
 //
 //  Macro.h
-//  nullatest01
+//  
 //
 //  Created by soeasyright on 2014/6/5.
 //
 //
 
-#ifndef nullatest01_Macro_h
-#define nullatest01_Macro_h
+#ifndef ____Macro_h
+#define ____Macro_h
 
 
 #define RW_Property(varType, varName, funName)\

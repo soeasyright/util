@@ -1,17 +1,18 @@
 //
 //  EZutil.h
-//  nullatest01
+//  
 //
 //  Created by soeasyright on 2014/6/6.
 //
 //
 
-#ifndef nullatest01_EZutil_h
-#define nullatest01_EZutil_h
+#ifndef ____EZutil_h
+#define ____EZutil_h
 
 #include "HttpUtil.h"
 #include "Macro.h"
 #include "Storge.h"
+#include "EZsqlite3.h"
 
 extern "C" {
 #include "md5.h"
