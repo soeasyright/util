@@ -12,21 +12,13 @@
 #include "cocos2d.h"
 using namespace cocos2d;
 #include <sqlite3.h>
+#include "Macro.h"
 
 #define EZsqlite3_orderbyAsc "select %s from %s ORDER BY %s ASC"
 #define EZsqlite3_orderbyDesc "select %s from %s ORDER BY %s DESC"
 #define EZsqlite3_insert "insert into %s(%s) VALUES(%s)"
+#define EZsqlite3_update "update %s set %s where %s"
 
 
-class EZsqlite3
-{
-public:
-
-    static sqlite3 *pdb;
-     static bool GetOrCreate(const char *fileName);
-     static void CommandLine(const char *tables,const char *fields,const char *values);
-     static void destroyInstance(void);
-    
-};
-
+extern char *table_queryprintf(const char *fmt, ...);
 #endif /* defined(____EZsqlite3__) */
