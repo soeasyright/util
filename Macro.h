@@ -16,5 +16,5 @@ public: inline varType get##funName(void){return varName;};\
 public: inline void set##funName(varType var){varName=var;};
 
 #define LocalFileName(_NAME_) cocos2d::CCFileUtils::sharedFileUtils()->getWritablePath().append(_NAME_).c_str()
-
+#define WIN_SIZE CCDirector::sharedDirector()->getVisibleSize()
 #endif
